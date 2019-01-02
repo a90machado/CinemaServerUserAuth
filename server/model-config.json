@@ -14,7 +14,7 @@
     ]
   },
   "User": {
-    "dataSource": "mysqlDs"
+    "dataSource": "db"
   },
   "AccessToken": {
     "dataSource": "db",
@@ -22,7 +22,7 @@
   },
   "ACL": {
     "dataSource": "db",
-    "public": true
+    "public": false
   },
   "RoleMapping": {
     "dataSource": "db",
