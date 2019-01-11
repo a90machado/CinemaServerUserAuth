@@ -5,10 +5,10 @@
   },
   "mysqlDs": {
     "host": "localhost",
-    "port": 8889,
+    "port": 3306,
     "url": "",
     "database": "cinemadata",
-    "password": "root",
+    "password": "rootroot",
     "name": "mysqlDs",
     "user": "root",
     "connector": "mysql"
