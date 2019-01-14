@@ -5,7 +5,7 @@ module.exports = function(app) {
         if (err) throw err;
         app.models.Account.create( [{
           role: 'admin',
-          createdAt: '2018-12-21T02:16:50.464Z',
+          createdAt: Date.now(),
           name: 'André Machado',
           username: 'Machado',
           email: 'm@gmail.com',
