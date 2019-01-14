@@ -6,8 +6,8 @@ module.exports = function(app) {
         app.models.Account.create( [{
           role: 'admin',
           createdAt: '2018-12-21T02:16:50.464Z',
-          name: 'andre',
-          username: 'machado',
+          name: 'André Machado',
+          username: 'Machado',
           email: 'm@gmail.com',
           emailVerified: true,
           password: "abc"
