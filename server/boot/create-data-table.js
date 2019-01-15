@@ -4,7 +4,7 @@ module.exports = function(app) {
       app.dataSources.mysqlDs.autoupdate('Account', function(err) {
         if (err) throw err;
         app.models.Account.create( [{
-          role: 'admin',
+          role: 'Admin',
           createdAt: Date.now(),
           name: 'André Machado',
           username: 'Machado',
